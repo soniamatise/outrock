@@ -1,0 +1,24 @@
+// Basics
+@import 'tools/pre';
+@import 'typography/embed';
+
+// Define output settings for project
+$output: set-output(css, true);
+
+// Output the whole framework
+@import '~henris';
+
+// Defined settings
+@import 'tools/post';
+
+// Theme
+@import 'typography/typography';
+@import 'components/index';
+
+body {
+	height: 100%;
+}
+
+img:not([alt]), img[alt=""] {
+	outline: none;
+}

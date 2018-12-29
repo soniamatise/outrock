@@ -1,0 +1,40 @@
+{
+	"name": "outrock",
+	"version": "1.0.0",
+	"description": "Outrock website",
+	"author": "Sonia",
+	"private": true,
+	"scripts": {
+		"dev": "HOST=0.0.0.0 PORT=8737 nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+		"lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+		"precommit": "npm run lint"
+	},
+	"dependencies": {
+		"@nuxtjs/axios": "^5.0.0",
+		"axios": "^0.18.0",
+		"cross-env": "^5.2.0",
+		"nuxt": "^2.0.0",
+		"vue-router": "^3.0.2"
+	},
+	"devDependencies": {
+		"nodemon": "^1.11.0",
+		"henris": "^0.4.2",
+		"babel-eslint": "^8.2.1",
+		"eslint": "^5.0.1",
+		"eslint-loader": "^2.0.0",
+		"eslint-plugin-vue": "^4.0.0",
+		"node-sass": "^4.9.3",
+		"autoprefixer": "^9.1.5",
+		"postcss": "^7.0.2",
+		"nuxt-rfg-icon": "^0.4.3",
+		"@nuxtjs/manifest": "^2.4.0",
+		"@nuxtjs/pwa": "^2.5.0",
+		"sass-loader": "^7.1.0",
+		"stylelint": "^9.5.0",
+		"stylelint-config-recommended": "^2.1.0"
+	}
+}
