@@ -8,6 +8,7 @@
 			:key="index"
 			:news-item-title="article.title.rendered"
 			:news-item-description="article.excerpt.rendered"
+			:news-item-slug="article.slug"
 			news-item-image="url"/>
 	</main>
 </template>
